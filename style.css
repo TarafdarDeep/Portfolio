@@ -1,0 +1,14 @@
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section-element{
+    height: 200px;
+    width: 50%;
+}
+.box1{
+    background-color: darkgreen;
+}
+.box2{
+    background-color: crimson;
+}
