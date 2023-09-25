@@ -1,11 +1,11 @@
 .footer-section{
     display: flex;
-    justify-content: space-around;
     color: white;
+    justify-content: space-around;
 }
 .footer-section-element{
     height: 200px;
-    width: 48%;
+    width: 40%;
     padding: 20px;
 }
 .box1{
@@ -17,8 +17,8 @@
 .footer-section-heading{
     font-size: 45px;
 }
-@media only screen and (min-width:700px)and(max-width:768px) {
+@media only screen and (min-width:600px) and (max-width:768px) {
     .footer-section{
-        flex-direction:column;
+        flex-direction: column;
     }
 }
